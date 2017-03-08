@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+    <html>
+      <head>
+    <link rel="stylesheet" type="text/css" href="/res/css/common.css">
+           <link rel="stylesheet" type="text/css" href="/res/css/init.css">
+        <title>列表</title>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <style type="text/css">
+       {literal}
+
+/*        .content_text{  white-space:nowrap;line-height: 1.5rem;overflow: hidden ;text-overflow:ellipsis;}*/
+        .content_text{width: 90%;float: right;height: 6rem;}
+        .content_user{ width: 10%;float: left;
+          }
+        .content_user img {width :4rem;height: 4rem;border-radius: 4rem;}
+        .main_content {height: 6rem;margin: 1rem;}
+        {/literal}
+       </style>
+       <link rel="stylesheet" type="text/css" href="/res/css/init.css">
+      </head>
+      <body>
+
+  {include file="$menu_path/res/html/menu.html"}
+      <div class="main">
+      {foreach from=$data key=k item=foo}
+        <div class="main_content">
+          <div class="content_user">
+            <a>
+            <img  src="/res/img/example.jpg"> 
+            </a>
+          </div>
+          <div class="content_text">
+          <div class="text_title">
+          <a href="/index/index/articleId/id/{$foo.id}">
+            <span>
+            {$foo.article_title}
+            </span>
+            </a>
+          </div>
+          <div class="text_content">
+          <span>{$foo.article_content}</span>
+          </div>
+          <div class="text_reply">
+            <p>最后回答-xxx (3小时前)</p>
+          </div>
+          </div>
+        </div>
+      {/foreach}
+      </div>
+
+
+<!-- 
+            <form id ='dd'>
+          <input type="file" name='upfile' id='upfile'/>
+          </form>
+          <a href="/index.php/index/index/downfile">下载</a> -->
+      <script src="http://code.jquery.com/jquery.js"></script>
+
+      <script type="text/javascript">
+
+      $("#upfile").change(function(){
+        var formData = new FormData($("#dd")[0]);
+        // alert (formData)
+        $.ajax({
+          type:"post",
+          url:"/index.php/index/index/updata",
+          data:formData,
+          processData: false,
+          contentType: false,
+          async: false,
+           cache: false,
+          success:function(data){
+            alert(data)
+          },
+
+        })
+      })
+      </script>
+
+      </body>
+    </html>
+
+

@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+ <html>
+
+ <head>
+  <meta charset="UTF-8">
+ 	<title>sss</title>
+ </head>
+ <body>
+            <link rel="stylesheet" type="text/css" href="/res/css/init.css">
+
+  <script src="http://code.jquery.com/jquery.js"></script>   
+ <div class="rr" >
+我赶紧来解释解释我利用人获取了目标元素的文本长度，然后通过传参，给它一个需要对比的字数，如果内容比参数大，就截取从恩到参数位置部分，显示在页面中。像我这样记忆力不足的人还是需要烂笔头的帮助的，我会一步步的把步骤写下来，尽可能帮助自己理解记忆并且更希望帮助到看到这篇文章的人。我赶紧来解释解释我利用人获取了目标元素的文本长度，然后通过传参，给它一个需要对比的字数，如果内容比参数大，就截取从额到参数位置部分，显示在页面中。像我这样记忆力不足的人还是需要烂笔头的帮助的，我会一步步的把步骤写下来，尽可能帮助自己解记忆并且更希望帮助到看到这篇文章的人。
+ </div>
+ <script type="text/javascript">
+$().ready(function(){
+	var myDate =new Date()
+	// var ss=Date.today().toString("M:d:yyyy")
+	alert(myDate.toLocaleDateString())
+var text=$(".rr")
+var size=parseInt(text.css('font-size'))
+var space=text.css('letter-spacing')
+var width=text.width()
+var static_size=width*2/(space+size)
+var all_size=text.text().length
+if (all_size>static_size){
+	text.text(text.text().substr(0,static_size-1) +'......')
+}	
+})
+
+ </script>
+ </body>
+ </html>

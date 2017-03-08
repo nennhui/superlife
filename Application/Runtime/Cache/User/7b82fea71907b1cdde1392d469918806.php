@@ -1,0 +1,29 @@
+<?php if (!defined('THINK_PATH')) exit();?> <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>test</title>
+
+ </head>
+
+<body>
+<div>登录成功</div>
+<a class="logout" href='/index.php/user/user/logout'>退出</a>
+ 	 <script src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.js"></script>
+ 	 <script type="text/javascript">
+// $('.logout').click(function(){
+// var result=confirm("确定要退出"),
+// if (result==true) {
+
+
+// $.ajax({
+
+// 	type:'get',
+// 	url:'/index.php/user/user/logout',
+
+// })
+// }
+
+// })
+ 	 </script>
+ </body>
+ </html>

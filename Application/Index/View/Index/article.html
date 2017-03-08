@@ -1,0 +1,68 @@
+    <!DOCTYPE html>
+    <html>
+      <head>
+    <link rel="stylesheet" type="text/css" href="/res/css/common.css">
+           <link rel="stylesheet" type="text/css" href="/res/css/init.css">
+        <title>列表</title>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <style type="text/css">
+       {literal}
+
+/*        .content_text{  white-space:nowrap;line-height: 1.5rem;overflow: hidden ;text-overflow:ellipsis;}*/
+        .content_text{width: 90%;float: right;height: 6rem;}
+        .content_user{ width: 10%;float: left;
+          }
+        .content_user img {width :4rem;height: 4rem;border-radius: 4rem;}
+        .main_content {height: 6rem;margin: 1rem;}
+        {/literal}
+       </style>
+       <link rel="stylesheet" type="text/css" href="/res/css/init.css">
+      </head>
+      <body>
+
+  {include file="$menu_path/res/html/menu.html"}
+    <div class="main">
+      <div class="article_title">
+        <h1><b>{$data.article_title}</b></h1>
+        <div> 
+          <a >{$smarty.session.name}</a>-发布于<label>{$data.create_time}</label>
+        </div>
+        <div class="article_content">
+        {$data.article_content}
+        </div>
+      </div>
+    </div>
+
+
+<!-- 
+            <form id ='dd'>
+          <input type="file" name='upfile' id='upfile'/>
+          </form>
+          <a href="/index.php/index/index/downfile">下载</a> -->
+      <script src="http://code.jquery.com/jquery.js"></script>
+
+      <script type="text/javascript">
+
+      $("#upfile").change(function(){
+        var formData = new FormData($("#dd")[0]);
+        // alert (formData)
+        $.ajax({
+          type:"post",
+          url:"/index.php/index/index/updata",
+          data:formData,
+          processData: false,
+          contentType: false,
+          async: false,
+           cache: false,
+          success:function(data){
+            alert(data)
+          },
+
+        })
+      })
+      </script>
+
+      </body>
+    </html>
+
+
