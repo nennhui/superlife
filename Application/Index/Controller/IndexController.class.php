@@ -27,14 +27,13 @@ class IndexController extends Controller {
     	$this->display("articleedit");
     }
     public function save(){
-    	$title=I('title','');
     	$content=I('content','','addslashes');
     	$data=array(
-    		"article_title" =>$title,
+    		"user_id" =>$_SESSION["id"],
     		"article_content" =>$content,
     		);
     	$rs=$this->index->data($data)->add();
-    	$this->ajaxReturn(array("code"=>-1,'message'=>"提交成功"));
+    	$this->ajaxReturn(array("code"=>1,'message'=>"提交成功"));
     }
 
     public function updata(){

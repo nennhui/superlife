@@ -21,7 +21,7 @@ class IndexModel extends Model{
 	* 活动列表
 	*/
 	public function ArticleList(){
-		$sql=' select a.article_title,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id ';
+		$sql=' select a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id ';
 		$rs=$this->getRows($sql);
 		return $rs;
 

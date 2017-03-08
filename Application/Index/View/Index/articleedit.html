@@ -12,10 +12,6 @@
 
   {include file="$menu_path/res/html/menu.html"}
       <div class="main">
-<div>
-        <label>主题</label>
-        <input class="title" placeholder="活动主题">
-    </div>
 
     <textarea id="container" >输入具体活动内容</textarea>
     <!-- 加载编辑器的容器 -->
@@ -51,8 +47,10 @@
                     data:params,
                     dataType:'json',
                     success:function(data){
+                        if (data.code==1){
                         alert(data.message)
-                    }
+                        window.location.href="/index/index/index"}
+                    },
                 })
         }
     

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-03-07 15:47:21
+<?php /* Smarty version Smarty-3.1.6, created on 2017-03-08 20:36:03
          compiled from "./Application/Index/View\Index\articleedit.html" */ ?>
 <?php /*%%SmartyHeaderCode:679158be644dd02630-97926922%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b714eb4f67b002f90c76d981c3ee7310f5b44c88' => 
     array (
       0 => './Application/Index/View\\Index\\articleedit.html',
-      1 => 1488872837,
+      1 => 1488976418,
       2 => 'file',
     ),
   ),
@@ -34,10 +34,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <?php echo $_smarty_tpl->getSubTemplate (($_smarty_tpl->tpl_vars['menu_path']->value)."/res/html/menu.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
       <div class="main">
-<div>
-        <label>主题</label>
-        <input class="title" placeholder="活动主题">
-    </div>
 
     <textarea id="container" >输入具体活动内容</textarea>
     <!-- 加载编辑器的容器 -->
@@ -73,8 +69,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     data:params,
                     dataType:'json',
                     success:function(data){
+                        if (data.code==1){
                         alert(data.message)
-                    }
+                        window.location.href="/index/index/index"}
+                    },
                 })
         }
     

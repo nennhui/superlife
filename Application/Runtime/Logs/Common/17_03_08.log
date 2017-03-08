@@ -1,0 +1,6 @@
+[ 2017-03-08T20:35:02+08:00 ] ::1 /res/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Res
+

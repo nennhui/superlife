@@ -3,7 +3,7 @@ return array(
 	'DB_CONf'=>array(
 		'db_type'  => 'mysql',
 		'db_user'  => 'root',
-		'db_pwd'   => 'neng123',
+		'db_pwd'   => '123456',
 		'db_host'  => '127.0.0.1',
 		'db_port'  => '3306',
 		'db_name'  => 'test',

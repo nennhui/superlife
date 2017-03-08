@@ -35,6 +35,7 @@ class UserController extends Controller {
       }
       else{
         session("name",$name);
+        session("id",$rs[0]['id']);
         // cookie('name',$name);
         $this->ajaxReturn(array('code'=>1,'message'=>"成功"));
       }

@@ -7,36 +7,34 @@
        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
        <style type="text/css">
        {literal}
+        .content_text{font-size:1.2rem;}
+        .content_user{ margin:0 auto;}
+        .content_user img {width :3rem;height: 3rem;border-radius: 3rem;}
 
-/*        .content_text{  white-space:nowrap;line-height: 1.5rem;overflow: hidden ;text-overflow:ellipsis;}*/
-        .content_text{width: 90%;float: right;height: 6rem;}
-        .content_user{ width: 10%;float: left;
-          }
-        .content_user img {width :4rem;height: 4rem;border-radius: 4rem;}
-        .main_content {height: 6rem;margin: 1rem;}
+        .main_all{width:100%;}
+        .main{ width: 72%;margin: 0 auto;margin-top: 1rem;}
+        .main_content {overflow:auto;height:auto;margin: 1rem;background: white;padding:1rem}
+        .main_left{ width: 70%;float: left }
+        .main_right{width: 30%;float: right;}
+        .text_content{margin-bottom: 1rem;}
         {/literal}
        </style>
        <link rel="stylesheet" type="text/css" href="/res/css/init.css">
       </head>
       <body>
-
   {include file="$menu_path/res/html/menu.html"}
+          <div class="main_all">
       <div class="main">
+      <div class="main_left">
       {foreach from=$data key=k item=foo}
         <div class="main_content">
           <div class="content_user">
             <a>
             <img  src="/res/img/example.jpg"> 
             </a>
+            <a href="">{$smarty.session.name}</a>
           </div>
           <div class="content_text">
-          <div class="text_title">
-          <a href="/index/index/articleId/id/{$foo.id}">
-            <span>
-            {$foo.article_title}
-            </span>
-            </a>
-          </div>
           <div class="text_content">
           <span>{$foo.article_content}</span>
           </div>
@@ -45,9 +43,15 @@
           </div>
           </div>
         </div>
+
       {/foreach}
       </div>
+      <div class="main_right">
+        
+      </div>
+      </div>
 
+    </div>
 
 <!-- 
             <form id ='dd'>
