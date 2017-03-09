@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+            <form id ='dd'>
+          <input type="file" name='upfile' id='upfile'/>
+          </form>
+<script src="/res/js/jquery.js"></script> 
+                <script type="text/javascript">
+
+      $("#upfile").change(function(){
+        var formData = new FormData($("#dd")[0]);
+        // alert (formData)
+        $.ajax({
+          type:"post",
+          url:"/index/index/updata",
+          data:formData,
+          processData: false,
+          contentType: false,
+          async: false,
+           cache: false,
+          success:function(data){
+            alert(data)
+          },
+
+        })
+      })
+      </script>
+</body>
+</html>

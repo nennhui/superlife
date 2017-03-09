@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-03-08 21:01:41
+<?php /* Smarty version Smarty-3.1.6, created on 2017-03-09 11:36:13
          compiled from "./Application/Index/View\Index\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:2639858be2eb1605591-75736804%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '114b671a9aacd43fc2c3e063330dd75fee80711a' => 
     array (
       0 => './Application/Index/View\\Index\\index.html',
-      1 => 1488978098,
+      1 => 1489029825,
       2 => 'file',
     ),
   ),
@@ -40,8 +40,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         .main_all{width:100%;}
         .main{ width: 72%;margin: 0 auto;margin-top: 1rem;}
         .main_content {overflow:auto;height:auto;margin: 1rem;background: white;padding:1rem}
-        .main_left{ width: 70%;float: left }
-        .main_right{width: 30%;float: right;}
+        .main_left{ width: 60%;float: left }
+        .main_right{width: 40%;float: right;}
         .text_content{margin-bottom: 1rem;}
         
        </style>

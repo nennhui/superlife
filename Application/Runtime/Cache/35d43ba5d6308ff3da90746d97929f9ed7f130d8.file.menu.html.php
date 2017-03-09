@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-03-07 17:38:03
+<?php /* Smarty version Smarty-3.1.6, created on 2017-03-09 11:17:36
          compiled from "C:\wamp\wamp\www\res\html\menu.html" */ ?>
 <?php /*%%SmartyHeaderCode:1616558be56b2af6143-27011768%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '35d43ba5d6308ff3da90746d97929f9ed7f130d8' => 
     array (
       0 => 'C:\\wamp\\wamp\\www\\res\\html\\menu.html',
-      1 => 1488879480,
+      1 => 1489029454,
       2 => 'file',
     ),
   ),
@@ -19,27 +19,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_58be56b2b24f4',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58be56b2b24f4')) {function content_58be56b2b24f4($_smarty_tpl) {?>        <script src="http://code.jquery.com/jquery.js"></script>   
+<?php if ($_valid && !is_callable('content_58be56b2b24f4')) {function content_58be56b2b24f4($_smarty_tpl) {?>        <script src="/res/js/jquery.js"></script> 
+
+  <div class="top_all">
       <div class="top">
         <div class="top_menu">
-          <img src="">
-          <a href="">新鲜事</a>
-          <a href="">昨天</a>
-          <a href=''>久事</a>
+        <label>无奇不有</label>
+          <a href="/index/index/index">热点</a>
+          <a href="">奇闻</a>
+          <a href=''>异事</a>
         </div>
         <div class="top_user">
-        <ul >
           <?php if (isset($_SESSION['name'])){?>
-          <li><a href="" ><?php echo $_SESSION['name'];?>
-</a></li>
-          <li><img src=""></li>
-          <li><a href="/user/user/logout">注销</a></li>
+          <a href="" ><?php echo $_SESSION['name'];?>
+</a>
+          <img src="">
+          <a href="/index/index/articleedit">发文章</a>
+          <a href="/user/user/logout">注销</a>
           <?php }else{ ?>
-          <li><a href="#" onclick="alert_div()">登录</a></li>
-          <li><a href="">注册</a></li>
+          <a href="#" onclick="alert_div()">登录</a>
+          <a href="">注册</a>
           <?php }?>
 
-        </ul>
         </div>
         <div class="alert_div " style="display:none">
         <div class="login_div">
@@ -56,6 +57,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           </div>
           </div>
         </div>
+    </div>
+
+
         <script type="text/javascript">
         function alert_div(){
           $(".alert_div").css("display","block")
