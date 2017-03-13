@@ -16,7 +16,7 @@
         .main_content {overflow:auto;height:auto;margin: 1rem;background: white;padding:1rem}
         .main_left{ width: 60%;float: left }
         .main_right{width: 40%;float: right;}
-        .text_content{margin-bottom: 1rem;}
+        .text_content{margin-bottom: 1rem;overflow: hidden;}
         {/literal}
        </style>
        <link rel="stylesheet" type="text/css" href="/res/css/init.css">
@@ -32,11 +32,12 @@
             <a>
             <img  src="/res/img/example.jpg"> 
             </a>
-            <a href="">{$smarty.session.name}</a>
+            <a href="">{$foo.user_name}</a>
           </div>
           <div class="content_text">
           <div class="text_content">
-          <span>{$foo.article_content}</span>
+          <a  href="/index/index/articleshow/articleid/{$foo.id}" target="_blank">
+          <span>{$foo.article_content}</span></a>
           </div>
           <div class="text_reply">
             <p>最后回答-xxx (3小时前)</p>

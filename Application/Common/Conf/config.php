@@ -17,4 +17,8 @@ return array(
         'index' => 'index.php/index/index/index',
     ),
 	'URL_MODEL'=>2,
+	' access_token'=>'XRUJ3ImlffHbyUd71OADC0BTucTgF0Kynq6ZOnRAZ6qKzydoTnBlIEYFhACAVPW',
+	'appid'=>'wx0503ec22870883c9',
+	'appsecret'=> 'faf6778e6d6d7617ed27958f22acfaf5',
+	
 );

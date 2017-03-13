@@ -45,8 +45,22 @@ class IndexController extends Controller {
 			$this->ajaxReturn($config, 'JSON');
 			}	
 	}
+	public function articleshow(){
+
+		$articleid=I('articleid','','intval');
+		$data=$this->index->ArticleId($articleid);
+		$answerlist=$this->index->Answerlist($articleid);
+		$answer_num=count($answerlist);
+		$this->assign('num',$answer_num);
+		$this->assign('data',$data);
+		$this->assign('id',$articleid);
+		$this->assign('answerlist',$answerlist);
+		$this->display("articleshow");
+	}
+
     public function index(){
-    	$rs=$this->index->ArticleList();
+    	$type=I("type",'');
+    	$rs=$this->index->ArticleList($type);
     	$this->assign("data",$rs);
     	$this->display("index");
     }
@@ -59,13 +73,20 @@ class IndexController extends Controller {
     	$this->display("article");
     }
     public function articleedit(){
+    	$rs=$this->index->typeList();
+    	$this->assign('typelist',$rs);
     	$this->display("articleedit");
     }
     public function save(){
     	$content=I('content','','addslashes');
+    	$content=stripslashes($content);
+    	$type=I('type','');
+    	$title=I('title','');
     	$data=array(
     		"user_id" =>$_SESSION["id"],
     		"article_content" =>$content,
+    		"type" =>$type,
+    		"article_title" =>$title,
     		);
     	$rs=$this->index->data($data)->add();
     	$this->ajaxReturn(array("code"=>1,'message'=>"提交成功"));

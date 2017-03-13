@@ -1,0 +1,122 @@
+    <!DOCTYPE html>
+    <html>
+      <head>
+    <link rel="stylesheet" type="text/css" href="/res/css/common.css">
+           <link rel="stylesheet" type="text/css" href="/res/css/init.css">
+        <title>列表</title>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <style type="text/css">
+       {literal}
+        .content_text{font-size:1.2rem;}
+        .content_user{ margin:0 auto;}
+        .content_user img {width :3rem;height: 3rem;border-radius: 3rem;}
+
+        .main_all{width:100%;}
+        .main{ width: 72%;margin: 0 auto;margin-top: 1rem;}
+        .main_content,.article_answer,.my_answer {overflow:auto;height:auto;margin: 1rem;background: white;padding:1rem}
+        .main_left{ width: 60%;float: left }
+        .main_right{width: 40%;float: right;}
+        .my_answer textarea{ height:5rem;width: 100% }
+        .my_answer button{height: 2rem ;background: #4eaa4c;color: white;}
+        .text_content{margin-bottom: 1rem;overflow: hidden;}
+        {/literal}
+       </style>
+       <link rel="stylesheet" type="text/css" href="/res/css/init.css">
+      </head>
+      <body>
+  {include file="$menu_path/res/html/menu.html"}
+          <div class="main_all">
+      <div class="main">
+      <div class="main_left">
+        <div class="main_content">
+          <div class="content_user">
+            <a>
+            <img  src="/res/img/example.jpg"> 
+            </a>
+            <a href="">{$data.user_name}</a>
+          </div>
+          <div class="content_text">
+          <div class="text_content">
+          <span>{$data.article_content}</span>
+          </div>
+          <div class="text_reply">
+          </div>
+          </div>
+        </div>
+        <div class="my_answer">
+        <p>发表评论</p>
+        <textarea class="my_answer_content"></textarea>
+        <button onclick="my_ti()">发表评论</button>
+        </div>
+        <div class="article_answer">
+           <div class="answer_title">评论<label></label></div>
+           <hr>
+           {foreach from=$answerlist item=foo  key=k}
+           <div>
+           <img src="/res/img/example.jpg" style="width:2rem;height:2rem">
+           <a >{$foo.user_name}</a>
+           </div>
+           <div class="answer_content">{$foo.answer_content}</div> 
+           <hr >
+           {/foreach}
+        </div>
+      </div>
+      <div class="main_right">
+        
+      </div>
+      </div>
+
+    </div>
+
+<!-- 
+            <form id ='dd'>
+          <input type="file" name='upfile' id='upfile'/>
+          </form>
+          <a href="/index.php/index/index/downfile">下载</a> -->
+      <script src="http://code.jquery.com/jquery.js"></script>
+
+      <script type="text/javascript">
+      $('.answer_title label').text('({$num}条)')
+      function my_ti(){
+        var content=$(".my_answer_content").val()
+        var articleid={$id}
+        var data={}
+        data['content']=content
+        data['articleid']=articleid
+        $.ajax({
+          type:'post',
+          url:'/index/answer/answer',
+          data:data,
+       dataType:'json',
+          success:function(data){
+            alert(data.message)
+            $(".my_answer_content").val('')
+            location.reload();
+
+
+          },
+        })
+      }
+      $("#upfile").change(function(){
+        var formData = new FormData($("#dd")[0]);
+        // alert (formData)
+        $.ajax({
+          type:"post",
+          url:"/index.php/index/index/updata",
+          data:formData,
+          processData: false,
+          contentType: false,
+          async: false,
+           cache: false,
+          success:function(data){
+            alert(data)
+          },
+
+        })
+      })
+      </script>
+
+      </body>
+    </html>
+
+

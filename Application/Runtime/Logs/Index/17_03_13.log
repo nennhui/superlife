@@ -1,0 +1,3017 @@
+[ 2017-03-13T09:54:27+08:00 ] 127.0.0.1 /index.php/index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0050s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'a.article_title' in 'field list'
+ [ SQL语句 ] : select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id 
+ERR: 1054:Unknown column 'a.article_title' in 'field list'
+ [ SQL语句 ] : select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id 
+
+[ 2017-03-13T14:11:18+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+
+[ 2017-03-13T14:11:48+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+
+[ 2017-03-13T14:11:50+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+
+[ 2017-03-13T14:11:50+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+
+[ 2017-03-13T14:11:50+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+
+[ 2017-03-13T14:11:50+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+
+[ 2017-03-13T14:11:51+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+
+[ 2017-03-13T14:11:51+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+
+[ 2017-03-13T14:12:05+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T14:12:22+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.213012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.213012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:12:23+08:00 ] 127.0.0.1 /index/index/id?action=config&&noCache=1489385543020
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:12:28+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:12:28+08:00 ] 127.0.0.1 /index/index/id?action=config&&noCache=1489385548738
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:12:29+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:12:30+08:00 ] 127.0.0.1 /index/index/id?action=config&&noCache=1489385550024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:12:35+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T14:12:36+08:00 ] 127.0.0.1 /index/index/id?action=config&&noCache=1489385556152
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:13:36+08:00 ] 127.0.0.1 /index/index/id?action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:19:09+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:19:10+08:00 ] 127.0.0.1 /index/index/id?action=config&&noCache=1489385950446
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:19:13+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T14:19:15+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-03-13T14:19:24+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T14:19:27+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:21:32+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T14:22:47+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T15:04:09+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-13T15:04:13+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T15:04:15+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: typelist C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b714eb4f67b002f90c76d981c3ee7310f5b44c88.file.articleedit.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T15:45:24+08:00 ] 127.0.0.1 /index/index/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+ERR: 1146:Table 'test.t_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_article`
+
+[ 2017-03-13T16:07:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.210012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:07:57+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:10:02+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:10:08+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T16:10:11+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:10:13+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL:  select * from t_article_type  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T16:10:23+08:00 ] 127.0.0.1 /index/index/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `t_article` (`user_id`,`article_content`,`type`,`article_title`) VALUES ('18','<p>CREATE TABLE `t_user` (<br/>&nbsp; `id` int(11) NOT NULL AUTO_INCREMENT,<br/>&nbsp; `user_name` varchar(80) DEFAULT NULL,<br/>&nbsp; `user_pass` varchar(64) DEFAULT NULL,<br/>&nbsp; `create_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,<br/>&nbsp; `modify_time` timestamp NULL DEFAULT &#39;0000-00-00 00:00:00&#39;,<br/>&nbsp; `user_phone` int(20) DEFAULT NULL,<br/>&nbsp; `user_sex` int(11) DEFAULT &#39;0&#39; COMMENT &#39;0:男；1:女&#39;,<br/>&nbsp; PRIMARY KEY (`id`)<br/>) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8</p>','0','fff') [ RunTime:0.0020s ]
+
+[ 2017-03-13T16:10:24+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:10:29+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php C:\wamp\wamp\www\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php): No such file or directory C:\wamp\wamp\www\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Undefined index: id C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:13:33+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Undefined index: id C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:13:38+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Undefined index: id C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:13:41+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Undefined index: id C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:13:49+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Undefined index: id C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T16:13:51+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:13:53+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Undefined index: id C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-13T16:15:22+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Undefined index: id C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:15:24+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Undefined index: id C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:16:07+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Undefined index: id C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:16:14+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Undefined index: id C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:16:15+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: data C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 70 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Undefined index: id C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:18:06+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+NOTIC: [8] Undefined index: answerlist C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-13T16:18:46+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:22:23+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:22:53+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:23:15+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('gfd ','18','41') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:23:15+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('gfd ','18','41') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:23:17+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:23:19+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0030s ]
+SQL: SET NAMES utf8 [ RunTime:0.0020s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:23:19+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:23:19+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0040s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:25:02+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-13T16:25:03+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:25:08+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0010s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('方法反反复复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复v','18','41') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:26:35+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:26:36+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:26:40+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:27:10+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('方法反反复复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复v','18','41') [ RunTime:0.0030s ]
+
+[ 2017-03-13T16:27:13+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0010s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('方法反反复复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复v','18','41') [ RunTime:0.0020s ]
+
+[ 2017-03-13T16:27:57+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0030s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:28:00+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0010s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('方法反反复复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复v','18','41') [ RunTime:0.0030s ]
+
+[ 2017-03-13T16:28:00+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T16:28:08+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0000s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('方法反反复复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复v','18','41') [ RunTime:0.0010s ]
+
+[ 2017-03-13T16:28:08+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:29:12+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:29:14+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0050s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('方法反反复复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复反复v','18','41') [ RunTime:0.0020s ]
+
+[ 2017-03-13T16:29:14+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T16:29:21+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:29:24+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0030s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:29:25+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:29:27+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:29:30+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0010s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('灌灌灌灌','18','41') [ RunTime:0.0020s ]
+
+[ 2017-03-13T16:29:30+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:31:23+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0010s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('','18','41') [ RunTime:0.0030s ]
+
+[ 2017-03-13T16:31:33+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T16:31:38+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('','18','41') [ RunTime:0.0140s ]
+
+[ 2017-03-13T16:31:39+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:32:17+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T16:32:20+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-13T16:32:59+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:33:02+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:33:48+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T16:34:02+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0020s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+NOTIC: [8] Array to string conversion C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:34:18+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0030s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('很好','18','0') [ RunTime:0.0020s ]
+
+[ 2017-03-13T16:34:18+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+NOTIC: [8] Array to string conversion C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:35:04+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('很好','18','0') [ RunTime:0.0020s ]
+
+[ 2017-03-13T16:35:04+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+NOTIC: [8] Array to string conversion C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:35:23+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0010s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('很好','18','0') [ RunTime:0.0010s ]
+
+[ 2017-03-13T16:35:23+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+NOTIC: [8] Array to string conversion C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:35:28+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0000s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('很好','18','0') [ RunTime:0.0020s ]
+
+[ 2017-03-13T16:35:28+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+NOTIC: [8] Array to string conversion C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:36:00+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+NOTIC: [8] Array to string conversion C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-13T16:36:05+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0010s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('很好','18','0') [ RunTime:0.0010s ]
+
+[ 2017-03-13T16:37:23+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:37:28+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:37:32+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:37:53+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:37:56+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0010s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('很好','18','41') [ RunTime:0.0020s ]
+
+[ 2017-03-13T16:38:15+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.218013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:38:17+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0010s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('很好','18','41') [ RunTime:0.0020s ]
+
+[ 2017-03-13T16:38:17+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:38:22+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0000s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('很好就','18','41') [ RunTime:0.0010s ]
+
+[ 2017-03-13T16:38:22+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:38:40+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:40:07+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:40:31+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select *  from t_answer where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:52:51+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'a.anser_content' in 'field list'
+ [ SQL语句 ] : select a.anser_content,b.user_name  from t_answer as a join t_user as b on a.user_id=b.id where article_id ='41'
+ERR: 1054:Unknown column 'a.anser_content' in 'field list'
+ [ SQL语句 ] : select a.anser_content,b.user_name  from t_answer as a join t_user as b on a.user_id=b.id where article_id ='41'
+
+[ 2017-03-13T16:53:15+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'a.anwser_content' in 'field list'
+ [ SQL语句 ] : select a.anwser_content,b.user_name  from t_answer as a join t_user as b on a.user_id=b.id where article_id ='41'
+ERR: 1054:Unknown column 'a.anwser_content' in 'field list'
+ [ SQL语句 ] : select a.anwser_content,b.user_name  from t_answer as a join t_user as b on a.user_id=b.id where article_id ='41'
+
+[ 2017-03-13T16:54:00+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'a.user_id' in 'on clause'
+ [ SQL语句 ] : select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.user_id=b.id where article_id ='41'
+ERR: 1054:Unknown column 'a.user_id' in 'on clause'
+ [ SQL语句 ] : select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.user_id=b.id where article_id ='41'
+
+[ 2017-03-13T16:54:28+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036002s ]
+
+[ 2017-03-13T16:54:55+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0040s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:55:13+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0020s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('反反复复','18','41') [ RunTime:0.0020s ]
+
+[ 2017-03-13T16:55:13+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:55:18+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T16:56:49+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:56:52+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0100s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('也一样你','18','41') [ RunTime:0.0330s ]
+
+[ 2017-03-13T16:56:52+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:57:16+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T16:57:17+08:00 ] 127.0.0.1 /index/answer/answer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0010s ]
+SQL: INSERT INTO `t_answer` (`answer_content`,`answer_id`,`article_id`) VALUES ('123','18','41') [ RunTime:0.0010s ]
+
+[ 2017-03-13T16:57:18+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:57:35+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:58:31+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:59:32+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T16:59:43+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0030s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T16:59:45+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:00:23+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:00:30+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:01:06+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T17:02:52+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T17:03:58+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count C:\wamp\wamp\www\Application\Index\Controller\IndexController.class.php 第 53 行.
+
+[ 2017-03-13T17:04:11+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0060s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:04:17+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:04:24+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:07:44+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:07:50+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0100s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0040s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-13T17:08:17+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:08:18+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:08:22+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0280s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T17:08:24+08:00 ] 127.0.0.1 /index/index/index/type/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T17:08:26+08:00 ] 127.0.0.1 /index/index/index/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id where type=1 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T17:08:30+08:00 ] 127.0.0.1 /index/index/index/type/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0060s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:08:32+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T17:08:34+08:00 ] 127.0.0.1 /index/index/index/type/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T17:08:36+08:00 ] 127.0.0.1 /index/index/index/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0000s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id where type=1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:08:39+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL:  select * from t_article_type  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:08:42+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL:  select * from t_article_type  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-13T17:08:43+08:00 ] 127.0.0.1 /index/index/articleedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL:  select * from t_article_type  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T17:08:45+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-13T17:08:47+08:00 ] 127.0.0.1 /index/index/articleshow/articleid/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0050s ]
+SQL: SET NAMES utf8 [ RunTime:0.0020s ]
+SQL: select * from t_article where id= 41 [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0010s ]
+SQL: select a.answer_content,b.user_name  from t_answer as a join t_user as b on a.answer_id=b.id where article_id ='41' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: user_name C:\wamp\wamp\www\Application\Runtime\Cache\b34038e00300922eaccd49dcfb5be58cd2d459ad.file.articleshow.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-13T17:09:27+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.0010s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select a.create_time,a.article_title,a.type,a.article_content,a.id,a.create_time,b.user_name from t_article as a join t_user as b on a.user_id=b.id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -28,17 +28,27 @@ class UserController extends Controller {
     public function login(){
       $name=I('name');
       $password=I('pass');
-      $rs=$this->user->login($name,$password);
-      if(!$rs){
-        $this->ajaxReturn(array('code'=>-1,'message'=>"账号或者密码不正确"));
-
+      $es=$this->user->isset_name($name);
+      $data=array(
+        'user_name' =>$name,
+        'user_pass' =>md5($password),
+      );
+      // echo md5($password);
+      if(!$es){
+        $rs=$this->user->data($data)->add(); //增加用户信息
+       // $rs=$this->user->insert_name($name,$password);   
+        $id=$rs; 
       }
       else{
-        session("name",$name);
-        session("id",$rs[0]['id']);
-        // cookie('name',$name);
-        $this->ajaxReturn(array('code'=>1,'message'=>"成功"));
+        $rs=$this->user->isright_user($name,$password);
+        $id=$rs[0]['id'];
+        }
+        if(!$rs){
+        $this->ajaxReturn(array('code'=>-1,'message'=>"账号或者密码不正确"));
       }
+        session("name",$name);
+        session("id",$id);
+        $this->ajaxReturn(array('code'=>1,'message'=>"成功"));
        	
     }
 

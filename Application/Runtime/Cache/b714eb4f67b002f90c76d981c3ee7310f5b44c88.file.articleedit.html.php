@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-03-09 17:47:45
+<?php /* Smarty version Smarty-3.1.6, created on 2017-03-13 14:12:22
          compiled from "./Application/Index/View\Index\articleedit.html" */ ?>
 <?php /*%%SmartyHeaderCode:679158be644dd02630-97926922%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b714eb4f67b002f90c76d981c3ee7310f5b44c88' => 
     array (
       0 => './Application/Index/View\\Index\\articleedit.html',
-      1 => 1489052863,
+      1 => 1489369880,
       2 => 'file',
     ),
   ),
@@ -17,6 +17,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_58be644ddf0af',
+  'variables' => 
+  array (
+    'typelist' => 0,
+    'foo' => 0,
+  ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_58be644ddf0af')) {function content_58be644ddf0af($_smarty_tpl) {?><!DOCTYPE HTML>
@@ -41,8 +46,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
     <div class="main_all">
       <div class="main">
-
-    <textarea id="container" >输入具体活动内容</textarea>
+    <div><label>标题</label>
+    <input type="text" class="title">
+    </div>
+    <div><label>分类</label>
+    <select class="type">
+    <?php  $_smarty_tpl->tpl_vars['foo'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['foo']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['typelist']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['foo']->key => $_smarty_tpl->tpl_vars['foo']->value){
+$_smarty_tpl->tpl_vars['foo']->_loop = true;
+?>
+        <option value="<?php echo $_smarty_tpl->tpl_vars['foo']->value['id'];?>
+"><?php echo $_smarty_tpl->tpl_vars['foo']->value['name'];?>
+</option>
+    <?php } ?>
+  </select>
+    <textarea id="container" >输入内容</textarea>
     <!-- 加载编辑器的容器 -->
     <button class="up">提交</button>
 
@@ -58,9 +77,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     $().ready(function(){
     var article={}
     article.init = function(){
-        article.main_editor = UE.getEditor('container',{ toolbars: [
-        [ 'undo', 'redo', 'simpleupload']
-    ],
+        article.main_editor = UE.getEditor('container',{ 
+        toolbars:[['undo','redo','simpleupload']],
         imageUrl: '/index/index/id',
         zIndex: 1}
     );
@@ -72,6 +90,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         params={}
         params["content"]=article.main_editor.getContent()   
         params['title']   =$('.title').val()
+        params['type']   =$('.type').val()
         return params
     }
     article.save= function(){
@@ -84,7 +103,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     success:function(data){
                         if (data.code==1){
                         alert(data.message)
-                        window.location.href="/index/index/index"}
+                        window.location.href="/index/index/index"
+                        }
                     },
                 })
         }

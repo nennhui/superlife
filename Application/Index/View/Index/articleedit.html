@@ -19,8 +19,16 @@
   {include file="$menu_path/res/html/menu.html"}
     <div class="main_all">
       <div class="main">
-
-    <textarea id="container" >输入具体活动内容</textarea>
+    <div><label>标题</label>
+    <input type="text" class="title">
+    </div>
+    <div><label>分类</label>
+    <select class="type">
+    {foreach  from=$typelist item=foo}
+        <option value="{$foo.id}">{$foo.name}</option>
+    {/foreach}
+  </select>
+    <textarea id="container" >输入内容</textarea>
     <!-- 加载编辑器的容器 -->
     <button class="up">提交</button>
 
@@ -36,9 +44,8 @@
     $().ready(function(){
     var article={}
     article.init = function(){
-        article.main_editor = UE.getEditor('container',{ toolbars: [
-        [ 'undo', 'redo', 'simpleupload']
-    ],
+        article.main_editor = UE.getEditor('container',{ 
+        toolbars:[['undo','redo','simpleupload']],
         imageUrl: '/index/index/id',
         zIndex: 1}
     );
@@ -50,6 +57,7 @@
         params={}
         params["content"]=article.main_editor.getContent()   
         params['title']   =$('.title').val()
+        params['type']   =$('.type').val()
         return params
     }
     article.save= function(){
@@ -62,7 +70,8 @@
                     success:function(data){
                         if (data.code==1){
                         alert(data.message)
-                        window.location.href="/index/index/index"}
+                        window.location.href="/index/index/index"
+                        }
                     },
                 })
         }

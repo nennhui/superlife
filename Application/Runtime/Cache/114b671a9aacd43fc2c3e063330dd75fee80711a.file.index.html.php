@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-03-09 11:36:13
+<?php /* Smarty version Smarty-3.1.6, created on 2017-03-13 16:07:55
          compiled from "./Application/Index/View\Index\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:2639858be2eb1605591-75736804%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '114b671a9aacd43fc2c3e063330dd75fee80711a' => 
     array (
       0 => './Application/Index/View\\Index\\index.html',
-      1 => 1489029825,
+      1 => 1489369881,
       2 => 'file',
     ),
   ),
@@ -42,7 +42,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         .main_content {overflow:auto;height:auto;margin: 1rem;background: white;padding:1rem}
         .main_left{ width: 60%;float: left }
         .main_right{width: 40%;float: right;}
-        .text_content{margin-bottom: 1rem;}
+        .text_content{margin-bottom: 1rem;overflow: hidden;}
         
        </style>
        <link rel="stylesheet" type="text/css" href="/res/css/init.css">
@@ -65,13 +65,15 @@ $_smarty_tpl->tpl_vars['foo']->_loop = true;
             <a>
             <img  src="/res/img/example.jpg"> 
             </a>
-            <a href=""><?php echo $_SESSION['name'];?>
+            <a href=""><?php echo $_smarty_tpl->tpl_vars['foo']->value['user_name'];?>
 </a>
           </div>
           <div class="content_text">
           <div class="text_content">
+          <a  href="/index/index/articleshow/articleid/<?php echo $_smarty_tpl->tpl_vars['foo']->value['id'];?>
+" target="_blank">
           <span><?php echo $_smarty_tpl->tpl_vars['foo']->value['article_content'];?>
-</span>
+</span></a>
           </div>
           <div class="text_reply">
             <p>最后回答-xxx (3小时前)</p>

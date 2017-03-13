@@ -1,0 +1,21 @@
+[ 2017-03-13T16:10:11+08:00 ] 127.0.0.1 /user/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SET NAMES utf8 [ RunTime:0.0000s ]
+SQL: select * from  t_user where user_name= '123' [ RunTime:0.0000s ]
+SQL: INSERT INTO `t_user` (`user_name`,`user_pass`) VALUES ('123','bc6dc48b743dc5d013b1abaebd2faed2') [ RunTime:0.0030s ]
+
+[ 2017-03-13T17:09:27+08:00 ] 127.0.0.1 /user/user/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+
